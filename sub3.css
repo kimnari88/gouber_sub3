@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    min-width: 1350px;
+}
+#top{
+    width: 1350px;
+    margin: 30px auto;
+}
+#top h1{
+    float: left;
+    transform: translate(180%, 0);
+}
+#top ul{
+    float: right;
+}
+#top ul li{
+    float: left;
+    padding: 0 5px;
+}
+#header{
+    width: 1350px;
+    height: 123px;
+    margin: auto;
+    clear: both;
+}
+#header ul li{
+    float: left;
+    padding:  50px 99px;
+}
+#header ul li a{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#footer{
+    clear: both;
+    background: #333;
+    height: 200px;
+    color: white;
+    line-height: 30px;
+}
+#footer_inner{
+    width: 1350px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+#footer h1{
+    float: left;
+    padding-right: 100px;
+}
+#footer #box{
+    float: left;
+}
+#footer ul li{
+    float:left;
+    padding: 0 10px;
+}
+#footer ul li a{
+    color: white;
+}
+#footer p{
+    clear: both;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/*헤더, 푸터*/
+ 
+#mg{
+   
+    margin-bottom: 100px;
+   
+ }
+ #mg_inner{
+     margin: auto;   
+ }
+ #mg img{
+     width: 100%;
+ }
+ #list_inner{
+     width: 1350px;
+     margin: auto;
+     height: 130px;
+ }
+ #list li{
+     float: left;
+     padding: 0 42px;
+    
+ }
+  #list li a{
+      font-size: 20px;
+      color: coral;
+      font-weight: bold;
+      border: coral 1px solid;
+      padding: 20px 150px;
+  }
+  #goods{
+      width: 1350px;
+      margin: auto;
+       text-align: right;
+ 
+  }
+#goods #sort{
+    padding: 10px;
+    font-size: 15px;
+}
+
+#menu_inner{
+    width: 1350px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#menu #contents dl{
+    float: left;
+    box-sizing: border-box;
+    padding: 0 19px;
+    text-align: center;
+    
+}
+ 
+#menu dl img{
+    margin-bottom: 30px;
+}
+#menu .best{
+    border: 1px solid black;
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#menu dl dt{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+#menu .price{
+    color: orangered;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+#menu .ma dt{
+    margin-top: 29px;
+}
+
+#menu #contents1 dl{
+    float: left;
+    box-sizing: border-box;
+    padding: 0 19px;
+    text-align: center;
+    
+}
+#menu #contents2 dl{
+    float: left;
+    box-sizing: border-box;
+    padding: 0 19px;
+    text-align: center;
+    
+}
