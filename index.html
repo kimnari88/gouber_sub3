@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=1450">
     <title>굽떼 구움과자전문점</title>
+
+    <!--aos CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
@@ -39,8 +44,12 @@
         </ul>
     </div>
     <!--header-->
+    <div class="button">
+        <a href="#">TOP</a>
+    </div>
 
-    <div id="mg">
+
+    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" id="mg">
         <div id="mg_inner">
             <a href="#"><img src="images/mg.png" alt="메인배너"></a>
         </div>
@@ -49,14 +58,14 @@
     <div id="list">
         <div id="list_inner">
             <ul>
-                <li><a href="#">모두보기</a></li>
-                <li><a href="#">구움과자</a></li>
-                <li><a href="#">쿠키</a></li>
+                <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400"><a href="#">모두보기</a></li>
+                <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500"><a href="#">구움과자</a></li>
+                <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600"><a href="#">쿠키</a></li>
             </ul>
         </div>
     </div>
 
-    <div id="goods">
+    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100" id="goods">
         <select name="상품정렬" id="sort">
             <option value="상품정렬">상품정렬</option>
             <option value="인기순">인기순</option>
@@ -67,7 +76,7 @@
 
     <div id="menu">
         <div id="menu_inner">
-            <div id="contents">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" id="contents">
                 <dl>
                     <dd><a href="#"><img src="images/menu1.png" alt="스모어쿠키"></a></dd>
                     <dd class="best">best</dd>
@@ -89,7 +98,7 @@
                 </dl>
             </div>
 
-            <div id="contents1">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700" id="contents1">
                 <dl>
                     <dd><a href="#"><img src="images/menu4.png" alt="마들렌"></a></dd>
                     <dd class="best">best</dd>
@@ -111,7 +120,7 @@
                 </dl>
             </div>
 
-            <div id="contents2">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900" id="contents2">
 
                 <dl class="ma">
                     <dd><a href="#"><img src="images/menu6.png" alt="머핀"></a></dd>
@@ -160,5 +169,8 @@
         </div>
     </div>
 </body>
+<script>
+    AOS.init();
+</script>
 
 </html>
